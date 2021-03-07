@@ -3,3 +3,11 @@
 git-demo
 this line from remote repository.
 this line from local repository.
+
+
+# Git command :
+git init
+init คือ “intialize” คือเริ่มต้น ก่อนที่เราจะใช้งาน git ได้ต้อง git init (เราเป็นสร้าง repo คนแรก) เรามี Folder Project แล้วก็ทำการ git init จากนั้น git ก็จะมาคุม Project เราเรียบร้อยโดยค่าเริ่มต้นมันอยู่ที่ branch master.
+
+git clone
+clone คือ การเอางานที่เราต้องการลงมาไว้ที่เครื่องเรา (ใช้กรณีที่ไม่เคยมี Repository นั้นมาก่อน)
