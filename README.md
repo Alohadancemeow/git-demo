@@ -17,40 +17,6 @@ init คือ “intialize” คือเริ่มต้น ก่อนท
 
 clone คือ การเอางานที่เราต้องการลงมาไว้ที่เครื่องเรา (ใช้กรณีที่ไม่เคยมี Repository นั้นมาก่อน)
 
-1. Do this.
-1. Do that.
-1. Done.
-
-0. Do this.
-1. Do that.
-2. Done.
-
-1. First list
-
-```text
-Code block
-```
-
-1. Second list
-
-* Foo
-* Bar
-* Baz
-
-1. Foo
-1. Bar
-1. Baz
-
-1. Foo
-   * Bar
-1. Baz
-
-Some text
 ```
 Code block
 ```
-
-```
-Another code block
-```
-Some more text
