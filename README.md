@@ -65,24 +65,23 @@ merge คือ รวม เช่นเราทำงานที่ Branch d
 
 stash คือ การบันทึกการเปลี่ยนแปลงของเราไว้ก่อนและสามารถที่จะ restore กลับได้ทุกเมื่อ โดย stash จะแบ่งออกที่ใช้หลักๆ 4 คำสั่งดังนี้
 
->1. git stash save “[comment message]”
+># 1. git stash save “[comment message]”
 
 สำหรับบันทึกการเปลี่ยนแปลงลงในแฟ้ม stash ไว้ก่อน
 
->2. git stash pop [index] 
+># 2. git stash pop [index] 
 
 คือ การเอา stash list index ที่ต้องการเอาออกมา เป็นการเปลี่ยนแปลงเพื่อแก้ไขหรือทำงานต่อ
 
->3. git stash list 
+># 3. git stash list 
 
 คือ การแสดง stash list ที่เก็บไว้ทั้งหมด ❗️❗️ หมายเหตุ ออกจากการดู list ใช้ [control + z]
 
->4. git stash drop [index]
+># 4. git stash drop [index]
 
 คือ ลบ stash list ออกสามารถเลือกลบโดยใส่ index ที่ต้องการได้เลย
 
 
 ### อ้างอิง :
-`
-https://medium.com/trueid-developers/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B9%83%E0%B8%8A%E0%B9%89-git-command-line-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%A7%E0%B8%9A%E0%B8%A3%E0%B8%B1%E0%B8%94%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%99-5-%E0%B8%99%E0%B8%B2%E0%B8%97%E0%B8%B5-e871be9807eb
-`
+[a link](https://medium.com/trueid-developers/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B9%83%E0%B8%8A%E0%B9%89-git-command-line-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%A7%E0%B8%9A%E0%B8%A3%E0%B8%B1%E0%B8%94%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%99-5-%E0%B8%99%E0%B8%B2%E0%B8%97%E0%B8%B5-e871be9807eb
+)
